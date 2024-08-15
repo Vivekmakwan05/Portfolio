@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    body{
+        background-color: rgb(19, 19, 19);
+    }
+
+    .container{
+        width: 25%;
+        margin: 3rem auto;
+        border-radius: 20px;
+        background-color: rgb(19, 19, 19);
+        border: 1px solid rgb(76, 74, 74);
+    }
+
+    .imgsec{
+        padding: 2rem 2rem 1rem 2rem;
+        text-align: center;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    .imgsec img{
+        width: 120px;
+    }
+    
+    .content{
+        padding: 10px;
+    }
+
+    .content p{
+        color: #afacac;
+        padding: 0 10px 5px 10px;
+    }
+
+    .content h1{
+        font-size: 13px;
+        color: #afacac;
+        border: 1px solid rgb(60, 150, 196);
+    }
+
+    .butnsec{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        padding: 1rem 2rem 2rem 2rem;
+    }
+
+    .butnsec a{
+        width: 100%;
+    }
+
+    .btn{
+        width: 100%;
+        padding: 10px;
+        color: #7c7c7c;
+        background-color: #3d3d3d;
+        border: 1px solid rgb(104, 104, 104);
+    }
+
+    @media (max-width:600px) {
+        .container{
+            width: 100%;
+        }
+
+        section{
+            padding: 15px;
+        }
+    }
+
+</style>
+<body>
+    <section>
+        <div class="container">
+            <div class="imgsec">
+                <img src="/img/logo.png" alt="">
+                <div class="content">
+                    <p>Vivek Makwan</p>
+                    <h1>Frontend Developer</h1>
+                </div>
+            </div>
+            <div class="butnsec">
+                <a href="Portfolio.html"><button class="btn">Portfolio</button></a>
+                <a href="#"><button class="btn">Github</button></a>
+                <a href="#"><button class="btn">Linkedin</button></a>
+                <a href="#"><button class="btn">Massage</button></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
