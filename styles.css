@@ -427,6 +427,7 @@ footer p{
     .Infocontent{
         width: 100%;
         margin-left: 0;
+        padding: 1rem 20px;
     }
     .Infocontent p{
         max-width: 100%;
@@ -474,6 +475,9 @@ footer p{
     .card .colm22{
         display: block;
         display: flex;
+    }
+    .colm1, .colm3{
+        padding: 20px 0 20px 10px;
     }
     .colm1 p, .colm3 p{
         text-align: justify;
@@ -531,6 +535,12 @@ footer p{
 
     #openMenulist {
         transition: all 0.7s;
+    }
+
+}
+@media (max-width:400px){
+    html,body{
+        overflow-x: hidden;
     }
 
 }
